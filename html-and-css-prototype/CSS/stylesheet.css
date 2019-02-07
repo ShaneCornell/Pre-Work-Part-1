@@ -149,7 +149,7 @@ h1 {
 
 .save {
   grid-area: 10 / 1 / 11 / 3;
-  font-size: 13px;
+  font-size: 13.5px;
   border-width: 1.5px;
   border-radius: 3px;
   border-style: solid;
@@ -165,7 +165,7 @@ h1 {
 
 .friends {
   grid-area: 10 / 4 / 11 / 7;
-  font-size: 13px;
+  font-size: 13.5px;
   border-width: 1.5px;
   border-radius: 3px;
   border-style: solid;
