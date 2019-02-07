@@ -25,11 +25,9 @@ h1 {
 }
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
-
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-
   COLORS:
   blue: #20A1D4;
   green: #1CBC2C;
@@ -40,3 +38,143 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.days {
+  color: #EF5F3C;
+  font-weight: bold;
+}
+
+.containers {
+  display: grid;
+  width: 260px;
+  height: auto;
+  grid-template-rows: 40px 10px 13px 10px 85px 20px 43px 38px 10px 40px;
+  grid-template-columns: 15px 100px 15px 100px 15px 15px;
+  background-color: white;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin: 2em auto;
+	max-width: 630px;
+	text-align: center;
+
+}
+
+.top {
+  grid-area: 1 / 1 / 1 / 7;
+  background-color: #424242;
+  color: white;
+  border-radius: 3px;
+  font-size: 14.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tail {
+  grid-area: 2 / 5 / 3 / 5;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-top: 7px solid #424242;
+}
+
+.progress{
+  grid-area: 3 / 1 / 4 / 7;
+  background: #EF5F3C;
+  width: 75%;
+}
+
+.border1 {
+  grid-area: 3 / 1 / 4 / 7;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;
+}
+
+.border2 {
+  grid-area: 3 / 1 / 9 / 7;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;
+  border-bottom-width: 2px;
+}
+
+.main {
+  grid-area: 4 / 2 / 6 / 5;
+  background-color: white;
+  font-size: 13.25px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 2px;
+  color: #777;
+}
+
+.donation {
+  grid-area: 7 / 2 / 8 / 3;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #eaeaea;
+  font-size: 17px;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+
+.money {
+  color: #777;
+}
+
+.green-button {
+  grid-area: 7 / 4 / 8 / 6;
+  background-color: #1CBC2C;
+  color: white;
+  font-size: 17px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.why {
+  grid-area: 8 / 2 / 9 / 3;
+  color: #20A1D4;
+  text-align: left;
+  font-size: 13px;
+  font-style: italic;
+  padding: 3px;
+}
+
+.save {
+  grid-area: 10 / 1 / 11 / 3;
+  font-size: 13px;
+  border-width: 1.5px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #eaeaea;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #777;
+  border-bottom-width: 2px;
+  background-color: rgb(234, 234, 234, .2);
+
+}
+
+.friends {
+  grid-area: 10 / 4 / 11 / 7;
+  font-size: 13px;
+  border-width: 1.5px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #eaeaea;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #777;
+  border-bottom-width: 2px;
+  background-color: rgb(234, 234, 234, .2);
+
+}
